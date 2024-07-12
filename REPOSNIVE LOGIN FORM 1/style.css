@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.box{
+height: 100vh;
+width: 100vw;
+display: flex;
+/* justify-content: center;
+text-align: center; */
+}
+.box1{
+    width: 400px;
+    height: 240px;
+    margin-top: 294px;
+    margin-left: 175px;
+}
+.box1 .b1{
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  font-family: cursive;
+}
+.box1 .b2{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52.5px;
+}
+.box1 .b3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+.box1 .b4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.box1 .b4 span{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: lightskyblue;
+}
+.img{
+    width: 313px;
+    margin-top: 282px;
+    margin-left: -50px;
+    /* margin-left: 491px; */
+}
+.img img{
+    width: 313px;
+    height: 556px;
+}
+.mainbox{
+    height: 701px;
+    width: 370px;
+    margin-top: 100px;
+}
+
+.mainbox .top{
+    font-weight: 500;
+    line-height: 45px;
+    font-size: 30px;
+}
+.mainbox input{
+    width: 370px;
+    height: 62px;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 20px;
+    background-color:  #F0EFFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #a7a3ff;
+}
+.button{
+    margin-top: 20px;
+}
+.b{
+    background-color: #4d47c3;
+    width: 369px;
+    height: 59px;
+    border-radius: 9px;
+    text-align: center;
+    line-height: 59px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.end{
+    color: #b5b5b5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+    text-align: center;
+}
+.logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo span{
+    margin-inline: 6px;
+    height: 30px;
+    width: 30px;
+    
+    border-radius: 50%;
+    text-align: center;
+}
+.logo span i{
+    font-size: 25px;
+    
+}
+@media(max-width:600px)
+{
+    .box{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .img{
+        display: none;
+    }
+    .box1{
+        margin-top: 10px;
+        width: 396px;
+        height: 300px;
+        margin-left: 25px;
+        display: grid;
+        gap: 5px;
+        grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    }
+    .b3{
+        grid-row-start:4 ;
+    }
+    .b4{
+        grid-row-start: 5;
+    }
+    .mainbox{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .top{
+        display: none;
+    }
+    .input{
+        height: 62px;
+    }
+}
